@@ -1,0 +1,49 @@
+module github.com/anasanzari/golang_build_check
+
+go 1.12
+
+require (
+	cloud.google.com/go v0.37.4
+	github.com/GoogleCloudPlatform/cloudsql-proxy v0.0.0-20190418212003-6ac0b49e7197
+	github.com/Jeffail/gabs v1.2.0
+	github.com/PuerkitoBio/goquery v1.5.0
+	github.com/anasanzari/hermes v1.0.2
+	github.com/asaskevich/govalidator v0.0.0-20180720115003-f9ffefc3facf
+	github.com/bradfitz/slice v0.0.0-20180809154707-2b758aa73013
+	github.com/deckarep/golang-set v1.7.1
+	github.com/fsnotify/fsnotify v1.4.7
+	github.com/getsentry/raven-go v0.2.0
+	github.com/gin-contrib/cors v0.0.0-20190301062745-f9e10995c85a
+	github.com/gin-gonic/contrib v0.0.0-20190408155029-b5986969cb50
+	github.com/gin-gonic/gin v1.3.1-0.20190418024537-f9de6049cbf0
+	github.com/go-kit/kit v0.8.0
+	github.com/go-sql-driver/mysql v1.4.1
+	github.com/gocarina/gocsv v0.0.0-20190313153828-c075544dca88
+	github.com/jdkato/prose v1.1.0
+	github.com/jinzhu/gorm v1.9.4
+	github.com/magiconair/properties v1.8.0
+	github.com/markbates/goth v1.50.0
+	github.com/microcosm-cc/bluemonday v1.0.2
+	github.com/olivere/elastic v6.2.17+incompatible
+	github.com/parnurzeal/gorequest v0.2.15
+	github.com/pkg/errors v0.8.1
+	github.com/pquerna/otp v1.1.0
+	github.com/reiver/go-porterstemmer v1.0.1
+	github.com/robfig/cron v0.0.0-20180505203441-b41be1df6967
+	github.com/rockycoder/go-chargebee v0.0.0-20160719074430-f95d575e6d73
+	github.com/sajari/fuzzy v1.0.0
+	github.com/schollz/closestmatch v2.1.0+incompatible
+	github.com/sirupsen/logrus v1.4.1
+	github.com/spf13/viper v1.3.2
+	github.com/stretchr/testify v1.3.0
+	github.com/stripe/stripe-go v60.7.0+incompatible
+	github.com/szuecs/gin-gomonitor v1.1.3
+	github.com/zsais/go-gin-prometheus v0.0.0-20181030200533-58963fb32f54
+	golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c
+	golang.org/x/net v0.0.0-20190415214537-1da14a5a36f2
+	golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421
+	google.golang.org/api v0.3.1
+	gopkg.in/mcuadros/go-monitor.v1 v1.1.1
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0
+	gopkg.in/zabawaba99/firego.v1 v1.0.0-20190331000051-3bcc4b6a4599
+)
